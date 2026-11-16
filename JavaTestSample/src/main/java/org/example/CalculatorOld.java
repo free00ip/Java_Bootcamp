@@ -1,0 +1,60 @@
+package org.example;
+
+public class CalculatorOld {
+    public static void main(String[] args) {
+
+        int x = 10;
+
+        int y = 5;
+
+        int[] nums = {1, 2, 3, 4};
+
+        System.out.println("Addition - " + add(x, y));
+
+        System.out.println("Subtraction - " + subtract(x, y));
+
+        System.out.println("Multiply - " + multiply(nums));
+
+        System.out.println("Divide - " + divide(x, y));
+
+    }
+
+
+    private static int add(int x, int y) {
+
+        int sum = x + y;
+
+        return sum;
+
+    }
+
+    private static int subtract(int x, int y) {
+
+        int sub = x - y;
+
+        return sub;
+
+    }
+
+    private static int multiply(int[] numbers) {
+
+        int temp = 1;
+
+        for (int i = 0; i < numbers.length; i++) {
+
+            temp = temp * numbers[i];
+
+        }
+
+        return temp;
+
+    }
+
+    private static int divide(int x, int y) {
+
+        int div = x / y;
+
+        return div;
+
+    }
+}
