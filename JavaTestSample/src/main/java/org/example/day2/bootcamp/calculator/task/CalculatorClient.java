@@ -1,4 +1,4 @@
-package org.example.calculator.task.bootcamp;
+package org.example.day2.bootcamp.calculator.task;
 
 public class CalculatorClient {
 

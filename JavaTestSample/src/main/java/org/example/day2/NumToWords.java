@@ -1,4 +1,4 @@
-package org.example;
+package org.example.day2;
 
 public class NumToWords {
     public static void main() {

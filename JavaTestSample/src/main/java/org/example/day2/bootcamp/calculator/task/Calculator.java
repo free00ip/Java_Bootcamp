@@ -1,4 +1,4 @@
-package org.example.calculator.task.bootcamp;
+package org.example.day2.bootcamp.calculator.task;
 
 public class Calculator {
 
@@ -14,6 +14,7 @@ public class Calculator {
     public Calculator(String calculatorType) {
         this.calculatorType = CALC_TYPE_BASIC;
     }
+
     // TODO: Create a Getter for CalculatorType
     public String getCalculatorType() {
         return calculatorType;

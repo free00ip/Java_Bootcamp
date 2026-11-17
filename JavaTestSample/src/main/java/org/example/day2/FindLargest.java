@@ -1,4 +1,4 @@
-package org.example;
+package org.example.day2;
 
 public class FindLargest {
     public static void main() {

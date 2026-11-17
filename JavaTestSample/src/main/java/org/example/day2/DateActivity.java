@@ -1,4 +1,4 @@
-package org.example;
+package org.example.day2;
 
 import java.util.Date;
 
